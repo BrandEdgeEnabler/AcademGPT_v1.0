@@ -1,6 +1,6 @@
 # AcademGPT_v1.0
 
-AcademGPT is a GenAI-powered academic advising platform that streamlines the student journey through an intelligent assistant, real‑time advisor communication, degree progress tracking, course planning, calendar management, goal setting, and a centralized resource hub. Built with Nuxt 3 (frontend), NestJS (backend), and an Nx monorepo, it delivers a modern, scalable full‑stack solution. Role‑based dashboards (student, advisor, auditor, admin), real‑time chat via WebSockets, and persistent relational data storage ensure a professional, maintainable system designed to empower academic success.
+AcademGPT is a GenAI-powered academic advising platform that streamlines the student journey through an intelligent assistant, real‑time advisor communication (with human-in-the-loop - HITL feedback), degree progress tracking, course planning, calendar management, goal setting, and a centralized resource hub. Built with Nuxt 3 (frontend), NestJS (backend), and an Nx monorepo, it delivers a modern, scalable full‑stack solution. Role‑based dashboards (student, advisor, auditor, admin), real‑time chat via WebSockets, and persistent relational data storage ensure a professional, maintainable system designed to empower academic success.
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 

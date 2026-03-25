@@ -1,0 +1,10 @@
+{
+  "name": "@academ-gpt-v1.0/web-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@academ-gpt-v1.0/web"
+    ]
+  }
+}

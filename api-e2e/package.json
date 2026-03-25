@@ -1,0 +1,26 @@
+{
+  "name": "@academ-gpt-v1.0/api-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@academ-gpt-v1.0/api"
+    ],
+    "targets": {
+      "e2e": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ],
+        "options": {
+          "jestConfig": "api-e2e/jest.config.cts",
+          "passWithNoTests": true
+        },
+        "dependsOn": [
+          "@academ-gpt-v1.0/api:build",
+          "@academ-gpt-v1.0/api:serve"
+        ]
+      }
+    }
+  }
+}
